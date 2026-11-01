@@ -24,7 +24,6 @@ The title kid, the game-over kid and the three boss portraits are AI-generated p
 | Icon | Effect |
 | --- | --- |
 | **S** | Super speed (and you smash small obstacles) |
-| **O** | Omni toss - every throw sprays papers in all directions |
 | **I** | Invincible - cars, dogs and obstacles bounce off or get smashed |
 | **8** | Infinite papers |
 | 1UP | Extra life |
