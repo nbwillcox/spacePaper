@@ -4,11 +4,11 @@ A free, silly delivery game with a head nod to the classic paper-route arcade ga
 
 **Play it in your browser:** https://nbwillcox.github.io/spacePaper/
 
-The title kid, the game-over kid and the three boss portraits are AI-generated pictures (Z-Image Turbo via ComfyUI, in `assets/`). Everything in the street - the oblique 3/4 view, houses, cars, dogs, bosses, effects - is drawn in code with Canvas, and all sound and music is synthesized with Web Audio. No build step. A sibling of [SpaceDuckHunter](https://github.com/nbwillcox/SpaceDuckHunter), [SpaceJong](https://github.com/nbwillcox/spacejong) and the other Space games.
+The title kid, the game-over kid and the three boss portraits are AI-generated pixel-art pictures (Z-Image Turbo via ComfyUI, pixelated and palette-reduced, in `assets/`). Everything in the street - the NES-style oblique view, houses, cars, dogs, bosses, effects - is drawn in code by a small software pixel renderer (480x270, no anti-aliasing, 5x7 bitmap font), and all sound and music is synthesized with Web Audio. No build step. A sibling of [SpaceDuckHunter](https://github.com/nbwillcox/SpaceDuckHunter), [SpaceJong](https://github.com/nbwillcox/spacejong) and the other Space games.
 
 ## How to play
 
-- A week is seven routes, **Monday to Sunday**. The street scrolls diagonally; steer across it, speed up or brake.
+- A week is seven routes, **Monday to Sunday**. The street scrolls diagonally with the houses on one side, like the original; steer across it, speed up or brake.
 - **Subscribers** are the glowing yellow houses (the sign over the roof shows their state). Land a paper on the **welcome mat** (250), the **patio** (150) or in the **mailbox** (100). The door counts too.
 - **Non-subscribers** are the dark, grumpy houses. **Smash their windows** (150 each), ding their mailbox (50), knock on the door (50). Do **not** break a subscriber's window - they cancel (-250).
 - Any subscriber you miss by the end of the route cancels. Deliver everything for a **perfect route** bonus and two new subscribers. Lose every subscriber and you are fired.
