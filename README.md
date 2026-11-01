@@ -1,6 +1,6 @@
 # SpacePaper
 
-A free, silly delivery game with a head nod to the classic paper-route arcade game: you are a kid on a **hoverboard** delivering *The Daily Nebula* to a floating **space suburb**. Land papers on welcome mats and in mailboxes, smash the windows of the grumpy neighbours, dodge hover-cars, space-dogs and meteors, and survive the weekly boss.
+A free, silly delivery game with a head nod to the classic paper-route arcade game: you are a kid on a **hoverboard** delivering *The Daily Nebula* to a floating **space suburb**. Land papers on welcome mats and in mailboxes, smash the windows of the grumpy neighbours, dodge hover-cars and meteors, and survive the weekly boss.
 
 **Play it in your browser:** https://nbwillcox.github.io/spacePaper/
 
@@ -12,7 +12,7 @@ The title kid, the game-over kid and the three boss portraits are AI-generated p
 - **Subscribers** are the glowing yellow houses (the sign over the roof shows their state). Land a paper on the **welcome mat** (250), the **patio** (150) or in the **mailbox** (100). The door counts too.
 - **Non-subscribers** are the dark, grumpy houses. **Smash their windows** (150 each), ding their mailbox (50), knock on the door (50). Do **not** break a subscriber's window - they cancel (-250).
 - Any subscriber you miss by the end of the route cancels. Deliver everything for a **perfect route** bonus and two new subscribers. Lose every subscriber and you are fired.
-- Hazards: oncoming and same-way hover-cars, cross-street traffic (from Tuesday), **space-dogs** (bonk them with a paper), skaters, robo-mowers, sprinklers, cones, black holes, UFO tractor beams, and meteors later in the week.
+- Hazards (kept light): oncoming and same-way hover-cars, cross-street traffic (from Tuesday), cones, trash cans, skaters, black holes, and later in the week UFO tractor beams and meteors.
 - **Hop** to clear low obstacles. Ride up a **ramp** for a stunt bonus.
 - **Paper bundles** restock your bag. A **throw guide** (Settings) shows where a paper would land.
 - Chain scoring hits for a **combo multiplier** (up to x5); a crash resets it.
