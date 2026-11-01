@@ -31,7 +31,7 @@
     if (idle) { Game.phase = 'idle'; Game.setRoute(W.route(1, 1, 8, { diff: S.difficulty })); Game.spawnPlayer(); Game.cam.z = 30; return; }
   };
   Game.spawnPlayer = function () {
-    Object.assign(P, { x: 0, z: Game.route.start, y: 0, vy: 0, vx: 0, speed: C.CRUISE, crash: 0, inv: 0, lean: 0, throwT: 0, throwSide: 1, hopT: 0, slip: 0, papers: Game.route.papers || 12, pw: { speed: 0, double: 0, omni: 0, shield: 0, inf: 0 }, air: 0, stun: 0, anim: 0, abduct: 0, ramps: 0 });
+    Object.assign(P, { x: 0, z: Game.route.start, y: 0, vy: 0, vx: 0, speed: C.CRUISE, crash: 0, inv: 0, lean: 0, throwT: 0, throwSide: 1, hopT: 0, slip: 0, papers: Game.route.papers || 12, pw: { speed: 0, double: 0, omni: 0, shield: 0, inf: 0 }, air: 0, stun: 0, anim: 0, abduct: 0, ramps: 0, dying: false, ramp: 0 });
     Game.cars = []; Game.papersL = []; Game.haz = []; Game.crossT = {}; Game.meteorT = 3; Game.fx.pops.length = 0; Game.fx.parts.length = 0; Game.boss = null; Game.cd = 0;
   };
   Game.setRoute = function (R) {
