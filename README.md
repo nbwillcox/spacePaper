@@ -4,7 +4,7 @@ A free, silly delivery game with a head nod to the classic paper-route arcade ga
 
 **Play it in your browser:** https://nbwillcox.github.io/spacePaper/
 
-The title kid, the game-over kid and the three boss portraits are AI-generated pixel-art pictures (Z-Image Turbo via ComfyUI, pixelated and palette-reduced, in `assets/`). Everything in the street - the NES-style oblique view, houses, cars, dogs, bosses, effects - is drawn in code by a small software pixel renderer (480x270, no anti-aliasing, 5x7 bitmap font), and all sound and music is synthesized with Web Audio. No build step. A sibling of [SpaceDuckHunter](https://github.com/nbwillcox/SpaceDuckHunter), [SpaceJong](https://github.com/nbwillcox/spacejong) and the other Space games.
+The title kid, the game-over kid and the three boss portraits are AI-generated pixel-art pictures (Z-Image Turbo via ComfyUI, pixelated and palette-reduced, in `assets/`). The in-game sprites (rider, cars, trees, props, UFO, skater, bosses) and the ground / wall / roof textures are also ComfyUI pixel art, keyed, downscaled, palette-reduced and outlined by a script; a small software pixel renderer (480x270, no anti-aliasing, affine texture mapping, 5x7 bitmap font) draws the NES-style oblique street, houses and effects, and all sound and music is synthesized with Web Audio. No build step. A sibling of [SpaceDuckHunter](https://github.com/nbwillcox/SpaceDuckHunter), [SpaceJong](https://github.com/nbwillcox/spacejong) and the other Space games.
 
 ## How to play
 
