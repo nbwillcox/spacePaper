@@ -35,8 +35,8 @@ The title kid, the game-over kid and the three boss portraits are AI-generated p
 | Action | Keyboard | Gamepad |
 | --- | --- | --- |
 | Steer / faster / brake | Arrows or `WASD` | Left stick or D-pad |
-| Throw left | `Z`, `Q` or `J` | `LB`, `X` or `LT` |
-| Throw right | `X`, `E` or `K` | `RB`, `B` or `RT` |
+| Throw left | Left mouse button, `Z`, `Q` or `J` | `LB`, `X` or `LT` |
+| Throw right | Right mouse button, `X`, `E` or `K` | `RB`, `B` or `RT` |
 | Auto-throw at the nearest target | `C` or `Enter` | `Y` |
 | Hop | `Space` | `A` |
 | Pause | `P` or `Esc` | `Start` |
